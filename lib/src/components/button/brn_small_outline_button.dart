@@ -100,7 +100,7 @@ class BrnSmallOutlineButton extends StatelessWidget {
         double textWidth = textPainter.width;
         double _maxWidth = textWidth +
             BrnButtonConstant.horizontalPadding * 2 +
-            2 * _BBorderWith;
+            4 * _BBorderWith;
 
         double _minWidth = min(_BMinWidth, con.maxWidth);
         if (_maxWidth <= _minWidth) {
