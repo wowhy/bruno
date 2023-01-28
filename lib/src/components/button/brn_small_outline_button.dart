@@ -52,7 +52,7 @@ class BrnSmallOutlineButton extends StatelessWidget {
   final FontWeight fontWeight;
 
   ///字体大小
-  final double fontSize;
+  final double? fontSize;
 
   /// 配置样式
   final BrnButtonConfig? themeData;
@@ -67,7 +67,7 @@ class BrnSmallOutlineButton extends StatelessWidget {
     this.textColor,
     this.radius,
     this.width,
-    this.fontSize = 14,
+    this.fontSize,
     this.fontWeight = FontWeight.w600,
     this.themeData,
   }) : super(key: key);
